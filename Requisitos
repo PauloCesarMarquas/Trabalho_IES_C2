@@ -1,3 +1,49 @@
 /*
   ============================ Requisistos para o trabalho ========================
       
+    Especificação:
+    Você deverá desenvolver um sistema para o Detran-PR. O sistema é formado pelo seu seguintes cadastros:
+    Proprietário 
+    Automóveis
+    Motos
+    Caminhão
+   
+    O cadastro de proprietário possui os seguintes dados:
+      Nome
+      Endereço
+      CPF
+      Número da habilitação
+      Idade
+    
+    O cadastro de automóveis possui os seguintes dados:
+      Placa
+      Ano
+      Modelo
+    
+    O de moto possui os seguintes dados:
+      Placa
+      Ano
+      Modelo
+      Cilindradas
+    
+    O de caminhão:
+      Placa
+      Ano
+      Modelo
+      Marca
+      Quantidade de eixos
+    
+    O proprietário pode ter mais de um automóvel, moto ou caminhão.
+    O proprietário pode ser motorista, desde que seja maior de 18 anos.
+    O sistema não deve permitir que o proprietário possua mais de uma moto e caminhão ao mesmo tempo.
+    O sistema deverá emitir os seguintes relatórios:
+    Quantidade de veículos por proprietário
+    Quantidade total de veículos cadastrados (automóvel, moto, caminhão - separadamente)
+    Lista de proprietários que são motoristas
+    Distribuição percentual de motoristas e não motoristas
+    
+    E na ultima aula ele pediu para adicionar também:
+    
+    Adicionar os valores dos veículos ao cadastro;
+    Adicionar o cálculo do IPTU (2,5% do valor do veículo - conferir tabela FIPE);
+    Relatório: valor total do IPVA de todos os veículos cadastrados no nome do proprietário.
