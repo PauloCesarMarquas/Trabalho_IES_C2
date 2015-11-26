@@ -1,0 +1,15 @@
+Especificação
+
+Você deverá desenvolver um sistema para o Detran-PR. O sistema é formado pelos seguintes cadastros: cadastro de proprietário, cadastro de automóvel, cadastro de moto e cadastro de caminhão, ano de nascimento. 
+
+O cadastro de proprietário possui os seguintes dados: nome, endereço, cpf, numero da habilitação, idade. O cadastro de automóvel possui os seguintes dados: placa, ano, modelo, marca. O cadastro de motos possui os seguintes dados: placa, ano, modelo, marca e cilindradas.O cadastro de caminhões possui os seguintes dados: placa, ano, modelo, marca e quantidade eixos.
+
+Um proprietário pode ter mais de um automóvel, moto ou caminhão. Um proprietário pode ser motorista, desde que seja maior de 18 anos.
+
+O sistema não deve permitir que um proprietário possua uma moto e um caminhão ao mesmo tempo.
+
+O sistema deverá emitir os seguintes relatórios:
+quantidade de veículos por proprietário. 
+quantidade total de veículos cadastrados (automóvel, moto e caminhão,, separadamente);
+lista de proprietários que são motoristas;
+distribuição percentual de proprietários motoristas e não motoristas;
