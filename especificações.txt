@@ -1,15 +1,26 @@
-EspecificaÁ„o
+Especifica√ß√£o
 
-VocÍ dever· desenvolver um sistema para o Detran-PR. O sistema È formado pelos seguintes cadastros: cadastro de propriet·rio, cadastro de automÛvel, cadastro de moto e cadastro de caminh„o, ano de nascimento. 
+Voc√™ dever√° desenvolver um sistema para o Detran-PR. O sistema √© formado pelos seguintes cadastros: 
+  cadastro de propriet√°rio, 
+  cadastro de autom√≥vel, 
+  cadastro de moto e cadastro de caminh√£o, ano de nascimento. 
 
-O cadastro de propriet·rio possui os seguintes dados: nome, endereÁo, cpf, numero da habilitaÁ„o, idade. O cadastro de automÛvel possui os seguintes dados: placa, ano, modelo, marca. O cadastro de motos possui os seguintes dados: placa, ano, modelo, marca e cilindradas.O cadastro de caminhıes possui os seguintes dados: placa, ano, modelo, marca e quantidade eixos.
+O cadastro de propriet√°rio possui os seguintes dados: 
+  nome, endere√ßo, cpf, numero da habilita√ß√£o, idade. 
+O cadastro de autom√≥vel possui os seguintes dados: 
+  placa, ano, modelo, marca.
+O cadastro de motos possui os seguintes dados: 
+  placa, ano, modelo, marca e cilindradas.
+O cadastro de caminh√µes possui os seguintes dados: 
+  placa, ano, modelo, marca e quantidade eixos.
 
-Um propriet·rio pode ter mais de um automÛvel, moto ou caminh„o. Um propriet·rio pode ser motorista, desde que seja maior de 18 anos.
+Um propriet√°rio pode ter mais de um autom√≥vel, moto ou caminh√£o. 
+Um propriet√°rio pode ser motorista, desde que seja maior de 18 anos.
 
-O sistema n„o deve permitir que um propriet·rio possua uma moto e um caminh„o ao mesmo tempo.
+O sistema n√£o deve permitir que um propriet√°rio possua uma moto e um caminh√£o ao mesmo tempo.
 
-O sistema dever· emitir os seguintes relatÛrios:
-quantidade de veÌculos por propriet·rio. 
-quantidade total de veÌculos cadastrados (automÛvel, moto e caminh„o,, separadamente);
-lista de propriet·rios que s„o motoristas;
-distribuiÁ„o percentual de propriet·rios motoristas e n„o motoristas;
+O sistema dever√° emitir os seguintes relat√≥rios:
+  quantidade de ve√≠culos por propriet√°rio. 
+  quantidade total de ve√≠culos cadastrados (autom√≥vel, moto e caminh√£o,, separadamente);
+  lista de propriet√°rios que s√£o motoristas;
+  distribui√ß√£o percentual de propriet√°rios motoristas e n√£o motoristas;
